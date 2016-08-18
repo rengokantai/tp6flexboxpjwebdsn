@@ -30,6 +30,16 @@ flex:3;
 }
 .sidebar{
 flex:1;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.sidebar h3{
+  font-size: 14px;
+  margin: 0;
+}
+.sidebar p{
+  font-size: 12px;
 }
 .container{
   display: flex;
