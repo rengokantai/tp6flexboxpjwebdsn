@@ -10,6 +10,7 @@ h1 { font-size: 1.6em; }
 .container {
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
 }
 
 article, aside { margin: 20px; }
@@ -42,4 +43,12 @@ form button {
   color: white;
   border: none;
   padding: 20px 4px;
+}
+@media screen and (max-width: 500px){
+  .container{
+    flex-direction: column;
+  }
+  .container aside{
+    order: -1
+  }
 }
