@@ -6,13 +6,13 @@ body { font-family: Arial; }
   list-style: none;
   padding-left: 0;
   height: 60px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .main-nav .menu li {
   padding: 4px;
   padding-top: 14px;
-  float: left;
-  margin: 0 30px;
 }
 
 .main-nav .fa {
